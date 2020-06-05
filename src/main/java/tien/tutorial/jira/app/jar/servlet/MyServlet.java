@@ -31,5 +31,4 @@ public class MyServlet extends HttpServlet {
     resp.getWriter()
         .write("<html><body>Hello World! " + libraryService.getName() + "</body></html>");
   }
-
 }
